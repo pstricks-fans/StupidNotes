@@ -7,7 +7,7 @@ using System.Collections.Generic;
 
 var foo = new Foo
 {
-    data = { 4, 5, 6 }
+    data = { 4, 5, 6 }  // Appending in disguise! 
 };
 
 Console.Write(string.Join(", ", foo.data)); // 1, 2, 3, 4, 5, 6
